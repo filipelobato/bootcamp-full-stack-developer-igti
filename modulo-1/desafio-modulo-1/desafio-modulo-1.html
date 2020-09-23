@@ -1,0 +1,45 @@
+<html>
+  <head>
+		<title>Desafio</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/estilos.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="box">
+				<div class="ui-g ui-fluid">
+					<div class="ui-g-12">
+						<h3 style="text-align: center;">Trabalho Prático do Módulo 1</h3>
+					</div>
+					<div class="ui-g-12">
+						<img id="banner-bootcamp" src="./resources/img/banner-full-stack.png" alt="bootcamp" class="mx-auto d-block">
+					</div>
+
+					<div class="ui-g-10">
+						<label id="teste" for="red">(R) Vermelho</label>
+						<input id="redInput" class="texto-input color-input" type="text" disabled>
+						<input id="red" type="range" class="form-control-range color-input" min="5" max="255" step="1">
+					</div>
+				
+					<div class="ui-g-12">
+						<label for="green">(G) Verde</label>
+						<input id="greenInput" class="texto-input color-input" type="text" disabled>
+						<input id="green" type="range" class="form-control-range color-input" min="5" max="255" step="1">
+					</div>
+
+					<div class="ui-g-12">
+						<label for="blue">(B) Azul</label>
+						<input id="blueInput" class="texto-input color-input" type="text" disabled>
+						<input id="blue" type="range" class="form-control-range color-input" min="5" max="255" step="1">
+					</div>
+
+					<div class="ui-g-12">
+						<label>Resultado</label>
+						<div id="resultado" class="ui-g-12"></div>
+					</div>
+			</div>
+		</div>
+		<script src="./js/desafio-modulo-1.js"></script>
+	</body>
+</html>

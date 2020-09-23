@@ -1,0 +1,46 @@
+.box {
+  width: 500px;
+  height: 500px;
+  /*background: darkorchid; */
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+label {
+  font-weight: bold;
+}
+
+#banner-bootcamp {
+	vertical-align: middle;
+	width: 200px; 
+	height: 200px;
+}
+
+#resultado {
+	height: 50px;
+	border-radius: 5px;
+	border: inset 5px;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+.texto-input {
+	float: right;
+	width: 70px;
+}
