@@ -17,10 +17,9 @@ BootcampIGTI.DesafioModulo1 = (function() {
     DesafioModulo1.prototype.iniciar = function() {
         let inputsColors = document.querySelectorAll('.color-input');
         inputsColors.forEach(item => item.value = 0);
-
-        this.inputRedRange.addEventListener("change", onChange.bind(this));
-        this.inputBlueRange.addEventListener("change", onChange.bind(this));
-        this.inputGreenRange.addEventListener("change", onChange.bind(this));
+        
+        let inputsRange = document.querySelectorAll('input[type=range]');
+        inputsRange.forEach(item => item.addEventListener("change", onChange.bind(this)));
         
     }
     
