@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="font-size: 12px">
+    <h1 style="font-size: 2rem">Filipe Lobato</h1>
+    <p style="font-size: 1rem">
+      Este é apenas um teste com HTML puro para ver a questão da fonte.
+    </p>
+    <p style="font-size: medium">
+      Este é apenas um teste com HTML puro para ver a questão da fonte.
+    </p>
+    <p style="font-size: 16px">
+      Este é apenas um teste com HTML puro para ver a questão da fonte.
+    </p>
+    <p>
+      <input type="radio" name="opcao" id="" value="0" checked />
+      <input type="radio" name="opcao" id="" value="1" />
+    </p>
+    <input type="checkbox" name="check" id="" value="1" />
+    <input type="checkbox" name="check" id="" value="2" />
+    <input type="checkbox" name="check" id="" value="3" />
+
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="Informe seu e-mail"
+    />
+    <input type="date" name="data" id="" />
+    <p>
+      <input type="text" name="" id="evento" placeholder="Eventos" />
+      <span id="caracteres" style="font-size: 1rem"></span>
+    </p>
+
+    <button type="button" id="btn">ENVIAR</button>
+    <script>
+      let inputEvento = document.querySelector('#evento');
+      inputEvento.addEventListener('keypress', () => {});
+      let span = document.querySelector('#caracteres');
+      inputEvento.addEventListener('keyup', (e) => {
+        span.textContent = e.target.value.length + ' caracteres';
+      });
+      let check = document.querySelectorAll('input[name="check"]');
+      let button = document.querySelector('#btn');
+      button.addEventListener('click', () => {
+        check = Array.from(check);
+        let atributos = check
+          .filter((item) => item.checked)
+          .map((item) => {
+            return { opcao: item.defaultValue };
+          });
+        console.log(atributos);
+        console.log(JSON.stringify(atributos));
+      });
+      button.addEventListener('mouseover', () => {
+        button.style.backgroundColor = 'red';
+      });
+
+      button.addEventListener('mouseout', () => {
+        button.style.backgroundColor = 'blue';
+      });
+    </script>
+  </body>
+</html>

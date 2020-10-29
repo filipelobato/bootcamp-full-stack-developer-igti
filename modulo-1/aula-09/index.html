@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Desafio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <script defer src="./js/aula09.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ui-g-12">
+        <h2>Cadastro de nomes</h2>
+      </div>
+      <div class="ui-g-12 form-usuario">
+        <form>
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nome"
+              placeholder="Nome do usuário"
+            />
+            <button type="submit" class="btn btn-primary">Adicionar</button>
+          </div>
+        </form>
+      </div>
+      <div class="row form-usuario">
+        <div class="col resultado">
+          <h3 class="user-results">Nomes até o momento</h3>
+          <div class="pessoa" id="pessoas"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+2020-10-29T15:06:38.698Z [my-app] error : Error log
+2020-10-29T15:06:38.702Z [my-app] silly : Error log
+2020-10-29T15:06:54.554Z [my-app] error : Error log
+2020-10-29T15:06:54.558Z [my-app] silly : Error log
+2020-10-29T15:06:56.386Z [my-app] error : Error log
+2020-10-29T15:06:56.395Z [my-app] silly : Error log
+2020-10-29T15:07:07.473Z [my-app] error : Error log
+2020-10-29T15:07:07.476Z [my-app] silly : Error log
+2020-10-29T15:07:22.021Z [my-app] error : Error log
+2020-10-29T15:07:22.092Z [my-app] silly : Error log
+2020-10-29T15:07:26.049Z [my-app] error : Error log
+2020-10-29T15:07:26.052Z [my-app] silly : Error log
+2020-10-29T15:07:32.591Z [my-app] error : Error log
+2020-10-29T15:07:32.596Z [my-app] silly : Error log
+2020-10-29T15:07:36.516Z [my-app] error : Error log
+2020-10-29T15:07:36.520Z [my-app] silly : Error log
+2020-10-29T15:07:56.718Z [my-app] error : Error log
+2020-10-29T15:07:56.722Z [my-app] silly : Error log
+2020-10-29T15:08:03.955Z [my-app] error : Error log
+2020-10-29T15:08:03.959Z [my-app] silly : Error log
+2020-10-29T15:09:34.011Z [my-app] error : Error log
+2020-10-29T15:09:34.016Z [my-app] silly : Error log
+2020-10-29T15:09:47.372Z [my-app] error : Error log
+2020-10-29T15:09:47.381Z [my-app] silly : Error log
+2020-10-29T15:10:21.357Z [my-app] error : Error log
+2020-10-29T15:10:21.360Z [my-app] silly : Error log
+2020-10-29T15:13:46.351Z [my-app] error : Error log
+2020-10-29T15:13:46.357Z [my-app] silly : Error log
+2020-10-29T15:14:11.787Z [my-app] error : Error log
+2020-10-29T15:14:11.790Z [my-app] silly : Error log
+2020-10-29T15:15:32.942Z [my-app] error : Error log
+2020-10-29T15:15:32.946Z [my-app] silly : Error log
+2020-10-29T15:15:55.968Z [my-app] error : Error log
+2020-10-29T15:15:55.998Z [my-app] silly : Error log
+2020-10-29T15:16:11.618Z [my-app] error : Error log
+2020-10-29T15:16:11.622Z [my-app] silly : Error log
+Invalid Date [my-app] error : Error log
+Invalid Date [my-app] silly : Error log
+Invalid Date [my-app] error : Error log
+Invalid Date [my-app] silly : Error log
+Invalid Date [my-app] error : Error log
+Invalid Date [my-app] silly : Error log
+Invalid Date [my-app] error : Error log
+Invalid Date [my-app] silly : Error log
+29/10/2020 [my-app] error : Error log
+29/10/2020 [my-app] silly : Error log
+29/10/2020 [my-app] error : Error log
+29/10/2020 [my-app] silly : Error log
+29/10/2020 [my-app] error : Error log
+29/10/2020 [my-app] silly : Error log
+29/10/2020 BRT [my-app] error : Error log
+29/10/2020 BRT [my-app] silly : Error log
+29/10/2020 BRT [my-app] error : Error log
+29/10/2020 BRT [my-app] silly : Error log
+09/12/2019 BRT [my-app] error : Error log
+09/12/2019 BRT [my-app] silly : Error log
+09/12/2019 13:30:15 BRT [my-app] error : Error log
+09/12/2019 13:30:15 BRT [my-app] silly : Error log
+09/12/2019 13:30:15 BRT [my-app] error : Error log
+09/12/2019 13:30:15 BRT [my-app] silly : Error log
+Invalid Date [my-app] error : Error log
+Invalid Date [my-app] silly : Error log
+29/10/2020 12:19:29 BRT [my-app] error : Error log
+29/10/2020 12:19:29 BRT [my-app] silly : Error log
+29/10/2020 12:19:33 BRT [my-app] error : Error log
+29/10/2020 12:19:33 BRT [my-app] silly : Error log
+29/10/2020 12:19:48 BRT [my-app] error : Error log
+29/10/2020 12:19:48 BRT [my-app] silly : Error log
+29/10/2020 12:22:22 BRT [my-app] silly : Erro
+29/10/2020 12:22:37 BRT [my-app] silly : Erro
+29/10/2020 12:23:16 BRT [my-app] silly : Erro
+29/10/2020 12:23:30 BRT [my-app] silly : Erro ao tentar executar ação
+29/10/2020 12:24:26 BRT [my-app] error : Erro ao tentar executar ação
+29/10/2020 12:40:58 BRT [my-app-Invalid Date] error : Erro ao tentar executar ação
+29/10/2020 12:41:09 BRT [my-app-Invalid Date] error : Erro ao tentar executar ação
+29/10/2020 12:41:52 BRT [my-app-Invalid Date] error : Erro ao tentar executar ação
+29/10/2020 12:42:04 BRT [my-app-function createFormatWrap(opts) {
+    return new Format(opts);
+  }] error : Erro ao tentar executar ação
+29/10/2020 12:42:10 BRT [my-app-[object Object]] error : Erro ao tentar executar ação
+29/10/2020 12:42:17 BRT [my-app-[object Object]] error : Erro ao tentar executar ação
+29/10/2020 12:43:58 BRT [my-app-Invalid Date] error : Erro ao tentar executar ação
+29/10/2020 12:44:10 BRT [my-app-Invalid Date] error : Erro ao tentar executar ação
+29/10/2020 12:44:18 BRT [my-app-01/01/1970 12:25:55 BRT] error : Erro ao tentar executar ação

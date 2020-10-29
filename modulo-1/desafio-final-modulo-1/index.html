@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Desafio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <script defer src="./js/desafio-final-modulo-1.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ui-g-12">
+        <h2>Pesquisa de usuários</h2>
+        <div class="d-flex justify-content-center">
+          <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+      </div>
+      <div class="ui-g-12 form-usuario" style="display: none">
+        <form>
+          <div class="form-group">
+            <label for="nome">Nome do usuário</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nome"
+              placeholder="Nome do usuário"
+            />
+            <button type="submit" class="btn btn-primary">Buscar</button>
+          </div>
+        </form>
+      </div>
+      <div class="row form-usuario" style="display: none">
+        <div class="col resultado">
+          <h3 class="user-results">Nenhum usuário filtrado</h3>
+          <div class="pessoa" id="pessoas"></div>
+        </div>
+        <div class="col resultado statsClass">
+          <h3 class="nenhum-resultado">Estatísticas</h3>
+          <div class="pessoa" id="estatisticas"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

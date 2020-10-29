@@ -1,0 +1,40 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+label {
+  font-weight: bold;
+}
+
+#banner-bootcamp {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+}
+
+#resultado {
+  height: 50px;
+  border-radius: 5px;
+  border: inset 5px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.texto-input {
+  float: right;
+  width: 70px;
+}
+
+h2 {
+  text-align: center !important;
+}
+
+.resultado {
+  border: 1px solid #ccc !important;
+  border-radius: 10px;
+  margin: 10px;
+}
