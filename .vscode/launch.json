@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\modulo-2\\grades-control-api\\src\\workers.js",
+      "program": "${workspaceFolder}\\modulo-2\\my-bank-api\\index.js",
       "outFiles": ["${workspaceFolder}/**/*.js"],
       "args": ["100"]
     }
